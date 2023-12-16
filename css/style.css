@@ -736,14 +736,15 @@ footer .creadit a {
     width: 80%;
     height: 80%;
   }
+
+  #shopping-cart-button .quantity-badge {
+    right: -5px;
+  }
 }
 
 /* Mobile Phone */
 @media (max-width: 450px) {
   html {
     font-size: 55%;
-  }
-  #shopping-cart-button .quantity-badge {
-    right: -5px;
   }
 }
