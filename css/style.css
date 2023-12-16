@@ -745,6 +745,14 @@ footer .creadit a {
   #shopping-cart-button .quantity-badge {
     right: -5px;
   }
+
+  .form-container h5 {
+    font-size: 1.4rem;
+  }
+
+  .form-container span {
+    font-size: 1.2rem;
+  }
 }
 
 /* Mobile Phone */
