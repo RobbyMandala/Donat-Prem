@@ -743,4 +743,7 @@ footer .creadit a {
   html {
     font-size: 55%;
   }
+  #shopping-cart-button .quantity-badge {
+    right: -5px;
+  }
 }
