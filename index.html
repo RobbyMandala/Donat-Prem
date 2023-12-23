@@ -223,12 +223,12 @@
                 </svg>
               </a>
             </div>
-            <div class="product-image">
+            <div class="product-image flex justify-center items-center">
               <img :src="`img/products/${item.img}`" :alt="item.name" />
             </div>
             <div class="product-content">
               <h3 x-text="item.name"></h3>
-              <div class="product-stars">
+              <div class="product-stars flex justify-center items-center">
                 <svg
                   width="24"
                   height="24"
@@ -328,7 +328,7 @@
 
     <!-- Footer Start -->
     <footer>
-      <div class="socials">
+      <div class="socials flex justify-center items-center">
         <a href="https://www.instagram.com/donat.prem/" target="_blank"
           ><i data-feather="instagram"></i
         ></a>

@@ -551,3 +551,11 @@ video {
 .hidden {
   display: none;
 }
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
