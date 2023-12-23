@@ -21,8 +21,11 @@
 
     <!-- AlpineJS -->
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.3/dist/cdn.min.js"></script>
+
+    <!-- App -->
+    <script src="src/app.js" async></script>
   </head>
-  <body>
+  <body x-data="{open: false}">
     <!-- Navbar Start -->
     <nav class="navbar" x-data>
       <a href="#" class="navbar-logo">Donat <span>Prem</span></a>
@@ -203,7 +206,7 @@
                   <use href="img/feather-sprite.svg#shopping-cart" />
                 </svg>
               </a>
-              <a href="#" class="item-detail-button">
+              <a href="#" class="item-detail-button" @click.prevent="open = !open">
                 <svg
                   width="24"
                   height="24"
@@ -344,9 +347,9 @@
     <!-- Footer End -->
 
     <!-- Modal Box Item Detail Start -->
-    <div class="modal" id="item-detail-modal">
+    <div x-show="open" class="modal" id="item-detail-modal">
       <div class="modal-container">
-        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <a href="#" class="close-icon" @click.prevent="open = !open"><i data-feather="x"></i></a>
         <div class="modal-content">
           <img src="img/products/1.jpg" alt="Product 1" />
           <div class="product-content">
@@ -378,8 +381,5 @@
 
     <!-- My Javaccript -->
     <script src="js/script.js"></script>
-
-    <!-- App -->
-    <script src="src/app.js"></script>
   </body>
 </html>

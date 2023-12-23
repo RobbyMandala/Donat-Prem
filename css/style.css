@@ -573,7 +573,7 @@ footer .creadit a {
 /* Modal Box */
 /* Item Detail */
 .modal {
-  display: none;
+  display: flex;
   position: fixed;
   z-index: 9999;
   left: 0;
@@ -620,7 +620,7 @@ footer .creadit a {
 }
 
 .modal-content img {
-  height: 20rem;
+  height: 19rem;
   margin-right: 2rem;
   margin-bottom: 2rem;
 }
@@ -738,8 +738,7 @@ footer .creadit a {
   }
 
   .modal-content img {
-    width: 80%;
-    height: 80%;
+    height: 20rem;
   }
 
   #shopping-cart-button .quantity-badge {
