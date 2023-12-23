@@ -629,6 +629,9 @@ footer .creadit a {
   font-size: 1.2rem;
   line-height: 1.8rem;
   margin-top: 1.2rem;
+  margin-bottom: 5px;
+  height: 80px;
+  overflow-y: auto;
 }
 
 .modal-content a {
@@ -639,6 +642,8 @@ footer .creadit a {
   color: #fff;
   margin-top: 1rem;
   padding: 1rem 1.6rem;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Media Queries */
@@ -742,8 +747,13 @@ footer .creadit a {
     flex-wrap: wrap;
   }
 
+  .modal-content a {
+    width: 13rem;
+  }
+
   .modal-content img {
-    height: 20rem;
+    height: 25rem;
+    width: 65%;
   }
 
   #shopping-cart-button .quantity-badge {
