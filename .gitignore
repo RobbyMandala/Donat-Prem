@@ -1,0 +1,12 @@
+.log/
+node_modules/
+docs/
+export.scss
+export/
+*.exe
+
+### Sass ###
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
