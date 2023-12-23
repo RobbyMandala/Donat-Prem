@@ -402,13 +402,14 @@ body {
 }
 .menu .row .menu-card {
   text-align: center;
-  padding-bottom: 4rem;
+  /* padding-bottom: 4rem; */
 }
 
 .menu .row .menu-card img {
   border-radius: 50%;
-  width: 80%;
-  height: 50%;
+  width: 300px;
+  height: 300px;
+  padding: 20px;
 }
 
 .menu .row .menu-card .menu-card-title {
