@@ -30,14 +30,17 @@ const sc = document.querySelector("#shopping-cart-button");
 document.addEventListener("click", function (e) {
   if (!hm.contains(e.target) && !navbarNav.contains(e.target)) {
     navbarNav.classList.remove("active");
+    e.preventDefault();
   }
 
   if (!sb.contains(e.target) && !searchForm.contains(e.target)) {
     searchForm.classList.remove("active");
+    e.preventDefault();
   }
 
   if (!sc.contains(e.target) && !shoppingCart.contains(e.target)) {
     shoppingCart.classList.remove("active");
+    e.preventDefault();
   }
 });
 
@@ -62,5 +65,6 @@ document.querySelector(".modal .close-icon").onclick = (e) => {
 window.onclick = (e) => {
   if (e.target === itemDetailModal) {
     itemDetailModal.style.display = "none";
+    e.preventDefault();
   }
 };
