@@ -348,7 +348,7 @@
 
     <!-- Modal Box Item Detail Start -->
     <div x-show="open" class="modal" id="item-detail-modal">
-      <div class="modal-container">
+      <div class="modal-container" @click.outside="open = !open">
         <a href="#" class="close-icon" @click.prevent="open = !open"><i data-feather="x"></i></a>
         <div class="modal-content">
           <img src="img/products/1.jpg" alt="Product 1" />
