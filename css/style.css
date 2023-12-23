@@ -453,8 +453,8 @@ body {
 }
 
 .products .product-icons a svg {
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
 }
 
 .products .product-image {
@@ -719,6 +719,11 @@ footer .creadit a {
 
   .menu p {
     font-size: 1.2rem;
+  }
+
+  .products .product-icons a svg {
+    width: 20px;
+    height: 20px;
   }
 
   .contact .row {
